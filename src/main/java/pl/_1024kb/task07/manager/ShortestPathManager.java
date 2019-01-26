@@ -11,7 +11,8 @@ public class ShortestPathManager
     // Awesome dependency injection
     // Use Dependency Injection to provide algorithm for calculating the shortest path in the graph
     // I suggest to use Dijkstra Algorithm - create new class which implements ShortestPathAlgorithm interface
-    public ShortestPathManager(ShortestPathAlgorithm shortestPathAlgorithm) {
+    public ShortestPathManager(ShortestPathAlgorithm shortestPathAlgorithm)
+    {
         this.shortestPathAlgorithm = shortestPathAlgorithm;
     }
 
