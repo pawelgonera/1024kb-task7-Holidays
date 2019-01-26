@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ee4881-2f0b-41ff-bd01-e40707b75ace" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/HolidayManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/PathNoExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/ShortestPathAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/ShortestPathManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/exception/PathNoExistException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/exception/PathNoExistException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +21,80 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WyjazdNaWakacje.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding>
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#1122#1123#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/exception/PathNoExistException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +103,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/HolidayManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/ShortestPathAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/ShortestPathManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/PathNoExistException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java" />
       </list>
     </option>
   </component>
@@ -103,6 +179,16 @@
               <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
               <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="_1024kb" type="462c0819:PsiDirectoryNode" />
+              <item name="task07" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -114,9 +200,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548522845478" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548523857626" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\poulg\IdeaProjects\WyjazdNaWakacje\src\test\java" />
+      <recent name="C:\Users\poulg\IdeaProjects\WyjazdNaWakacje\src\main\java\pl\_1024kb\task07" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,12 +233,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548522809378</updated>
-      <workItem from="1548522812326" duration="439000" />
+      <workItem from="1548522812326" duration="825000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="439000" />
+    <option name="totallyTimeSpent" value="825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -155,12 +248,12 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -183,6 +276,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/WyjazdNaWakacjeTemplate" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/WyjazdNaWakacjeTemplate/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -200,6 +298,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WyjazdNaWakacje.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/exception/PathNoExistException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

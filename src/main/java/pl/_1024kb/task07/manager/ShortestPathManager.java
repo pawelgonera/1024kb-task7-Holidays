@@ -1,4 +1,10 @@
-public class ShortestPathManager {
+package pl._1024kb.task07.manager;
+
+import pl._1024kb.task07.api.ShortestPathAlgorithm;
+import pl._1024kb.task07.graph.Graph;
+
+public class ShortestPathManager
+{
 
     private final ShortestPathAlgorithm shortestPathAlgorithm;
 

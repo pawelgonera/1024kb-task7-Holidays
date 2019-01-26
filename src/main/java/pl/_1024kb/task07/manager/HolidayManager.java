@@ -1,4 +1,9 @@
-public class HolidayManager {
+package pl._1024kb.task07.manager;
+
+import pl._1024kb.task07.graph.Graph;
+
+public class HolidayManager
+{
     private final ShortestPathManager shortestPathManager;
 
 
