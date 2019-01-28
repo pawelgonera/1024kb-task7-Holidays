@@ -27,8 +27,8 @@ public class ShortestPathManagerTest
 
         Graph graph = new Graph(graphMatrix);
 
-        final int shortestPathTest =  shortestPathManager.getShortestPath(graph, 1, 3);
+        final int shortestPathTest =  shortestPathManager.getShortestPath(graph, 0, 4);
 
-        Assert.assertEquals(shortestPathTest, 24);
+        Assert.assertEquals(shortestPathTest, 21);
     }
 }

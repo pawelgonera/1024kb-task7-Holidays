@@ -2,48 +2,92 @@ package pl._1024kb.task07.algo;
 
 import pl._1024kb.task07.api.ShortestPathAlgorithm;
 import pl._1024kb.task07.graph.Graph;
+import pl._1024kb.task07.graph.Vertex;
+
+import java.util.*;
 
 public class ShortestPathAlgorithmImpl implements ShortestPathAlgorithm
 {
     private static final int NO_VERTEX_CONNECTION = -1;
 
+    @SuppressWarnings({"MismatchedQueryAndUpdateOfCollection", "SortedCollectionWithNonComparableKeys"})
     @Override
     public int getShortestPath(Graph graph, int source, int destination)
     {
-        int totalDistance = 0;
-        graph.setPreviousWaypoint(source);
-        graph.setNextWaypoint(source);
-        while(graph.getNextWaypoint() != destination)
-        {
-            System.out.println("next: " + graph.getNextWaypoint());
-            totalDistance += findShortestPath(graph, graph.getNextWaypoint());
+        int[][] graphMatrix = graph.getNeighborhoodMatrix();
+        List<Vertex> verticesSet = new LinkedList<Vertex>();
 
+        for(int i = 0; i <= graphMatrix.length; i++)
+        {
+            verticesSet.add(new Vertex(Integer.MAX_VALUE, i));
         }
 
-        return totalDistance;
+        List<Integer> shortestPathVertices = new LinkedList<Integer>();
+
+
+        int pickedVertex = source;
+        int previousVertexDistance = 0;
+        int shortestPath = 0;
+
+        int j = 0;
+        while(shortestPathVertices.size() <= verticesSet.size())
+        {
+            shortestPathVertices.add(pickedVertex);
+            for (int i = 0; i < graphMatrix.length; i++)
+            {
+                if(shortestPathVertices.contains(i))
+                    continue;
+
+                if (graphMatrix[pickedVertex][i] != NO_VERTEX_CONNECTION)//&& !shortestPathVertices.contains(i)
+                {
+                    for (Vertex vertex : verticesSet)
+                    {
+                        if (vertex.getNumber() == i && vertex.getDistance() == Integer.MAX_VALUE)
+                        {
+                            vertex.setDistance(graphMatrix[pickedVertex][i] + previousVertexDistance);
+                            System.out.println("vertex number: " + vertex.getNumber() + " - vertex distance: " + vertex.getDistance());
+                        }
+                    }
+                }
+            }
+
+            pickedVertex = findShortestPathVertex(shortestPathVertices, verticesSet);
+
+            for(Vertex vertex : verticesSet)
+            {
+                if (vertex.getNumber() == pickedVertex)
+                    previousVertexDistance = vertex.getDistance();
+
+
+                if (vertex.getNumber() == destination)
+                    shortestPath = vertex.getDistance();
+            }
+
+
+
+            j++;
+        }
+
+        return shortestPath;
     }
 
-    private static int findShortestPath(Graph graph, int start)
+    private int findShortestPathVertex(List<Integer> sptSet, List<Vertex> vertSet)
     {
-        int[][] graphMatrix = graph.getNeighborhoodMatrix();
-        int distance = 0;
-        int min = Integer.MAX_VALUE;
-
-        for(int next = 0; next < graphMatrix.length; next++)
+        int minDist = Integer.MAX_VALUE;
+        int vertexNumber = 0;
+        for(Vertex vertex : vertSet)
         {
-            if(next == graph.getPreviousWaypoint())
+            if(sptSet.contains(vertex.getNumber()))
                 continue;
 
-            distance = graphMatrix[start][next];
-            if(distance < min && distance != NO_VERTEX_CONNECTION)
+            int distance = vertex.getDistance();
+            if(distance < minDist)
             {
-                min = distance;
-                graph.setNextWaypoint(next);
+                minDist = distance;
+                vertexNumber = vertex.getNumber();
             }
         }
-        graph.setPreviousWaypoint(start);
 
-
-        return min;
+        return vertexNumber;
     }
 }
