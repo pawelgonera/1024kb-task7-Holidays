@@ -5,7 +5,6 @@ import pl._1024kb.task07.graph.Graph;
 
 public class ShortestPathManager
 {
-
     private final ShortestPathAlgorithm shortestPathAlgorithm;
 
     // Awesome dependency injection
@@ -16,7 +15,8 @@ public class ShortestPathManager
         this.shortestPathAlgorithm = shortestPathAlgorithm;
     }
 
-    public int getShortestPath(Graph graph, int source, int destination) {
+    public int getShortestPath(Graph graph, int source, int destination)
+    {
         return shortestPathAlgorithm.getShortestPath(graph, source, destination);
     }
 }

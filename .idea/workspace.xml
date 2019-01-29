@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="71ee4881-2f0b-41ff-bd01-e40707b75ace" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/ShortestPathAlgorithmImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/ShortestPathAlgorithmImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/ShortestPathAlgorithmImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/DijkstraAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/_1024kb/task07/algo/ShortestPathAlgorithmImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/_1024kb/task07/manager/ShortestPathManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/_1024kb/task07/manager/ShortestPathManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ShortestPathManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShortestPathManagerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+              <caret column="34" selection-start-column="34" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -30,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="323">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,13 +54,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/ShortestPathAlgorithmImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/DijkstraAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+            <state relative-caret-position="136">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#449#458#0" expanded="true" />
+                <element signature="e#400#408#0" expanded="true" />
+                <element signature="e#475#484#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,11 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1768">
-              <caret line="104" selection-start-line="104" selection-end-line="104" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -81,14 +81,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -96,15 +88,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Vertex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
+            <state relative-caret-position="408">
               <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
                 <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,11 +119,11 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/ShortestPathAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/ShortestPathManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/PathNoExistException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/ShortestPathAlgorithmImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java" />
       </list>
     </option>
   </component>
@@ -159,7 +147,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,12 +227,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548717955110" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548755656903" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -308,50 +296,51 @@
       <workItem from="1548580276739" duration="3358000" />
       <workItem from="1548667189977" duration="4810000" />
       <workItem from="1548672851143" duration="103000" />
-      <workItem from="1548711761321" duration="5849000" />
+      <workItem from="1548711761321" duration="6222000" />
+      <workItem from="1548752821568" duration="1989000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShortestPathManagerTest - 2019.01.28 at 23h 39m 40s.xml">
-      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShortestPathManagerTest - 2019.01.28 at 23h 41m 26s.xml">
-      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShortestPathManagerTest - 2019.01.28 at 23h 41m 39s.xml">
-      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShortestPathManagerTest - 2019.01.28 at 23h 50m 07s.xml">
-      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShortestPathManagerTest - 2019.01.28 at 23h 50m 35s.xml">
-      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShortestPathManagerTest - 2019.01.28 at 23h 51m 02s.xml">
-      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShortestPathManagerTest - 2019.01.28 at 23h 51m 15s.xml">
-      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShortestPathManagerTest - 2019.01.29 at 00h 11m 21s.xml">
-      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShortestPathManagerTest - 2019.01.29 at 00h 17m 49s.xml">
-      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShortestPathManagerTest - 2019.01.29 at 00h 18m 50s.xml">
+      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShortestPathManagerTest - 2019.01.29 at 00h 25m 57s.xml">
+      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShortestPathManagerTest - 2019.01.29 at 00h 27m 44s.xml">
+      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShortestPathManagerTest - 2019.01.29 at 10h 33m 55s.xml">
+      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShortestPathManagerTest - 2019.01.29 at 10h 35m 18s.xml">
+      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShortestPathManagerTest - 2019.01.29 at 10h 36m 39s.xml">
+      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShortestPathManagerTest - 2019.01.29 at 10h 37m 32s.xml">
+      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShortestPathManagerTest - 2019.01.29 at 10h 39m 51s.xml">
+      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShortestPathManagerTest - 2019.01.29 at 10h 44m 41s.xml">
+      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShortestPathManagerTest - 2019.01.29 at 10h 51m 07s.xml">
       <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18714000" />
+    <option name="totallyTimeSpent" value="21076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -462,20 +451,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="187">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -485,58 +482,36 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="34" lean-forward="true" selection-start-column="34" selection-end-column="34" />
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/ShortestPathAlgorithmImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="41" column="52" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        <state relative-caret-position="323">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#449#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/DijkstraAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#408#0" expanded="true" />
+            <element signature="e#475#484#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
         </state>
       </provider>
     </entry>

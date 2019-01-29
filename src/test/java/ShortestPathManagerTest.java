@@ -1,14 +1,14 @@
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import pl._1024kb.task07.algo.ShortestPathAlgorithmImpl;
+import pl._1024kb.task07.algo.DijkstraAlgorithm;
 import pl._1024kb.task07.api.ShortestPathAlgorithm;
 import pl._1024kb.task07.graph.Graph;
 import pl._1024kb.task07.manager.ShortestPathManager;
 
 public class ShortestPathManagerTest
 {
-    ShortestPathAlgorithm shortestPathAlgorithm = new ShortestPathAlgorithmImpl();
+    ShortestPathAlgorithm shortestPathAlgorithm = new DijkstraAlgorithm();
     ShortestPathManager shortestPathManager = new ShortestPathManager(shortestPathAlgorithm);
     private int[][] graphMatrix;
 
