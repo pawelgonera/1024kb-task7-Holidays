@@ -1,10 +1,12 @@
 package pl._1024kb.task07.manager;
 
 import pl._1024kb.task07.graph.Graph;
+import pl._1024kb.task07.manager.converter.GraphMatrixConverter;
 
 public class HolidayManager
 {
     private final ShortestPathManager shortestPathManager;
+    private GraphMatrixConverter converter = GraphMatrixConverter.getInstance();
 
     // Dependency Injection is cool => https://1024kb.pl/programowanie/java/dependency-injection/
     public HolidayManager(ShortestPathManager shortestPathManager)
@@ -18,7 +20,8 @@ public class HolidayManager
         // You can also create another class for convert loaded matrix to graph object
         // It's up to you
 
-        Graph graph = null;
+        Graph graph = converter.convertMatrixToGraph(fileName);
+
         return shortestPathManager.getShortestPath(graph, source, destination);
     }
 }
