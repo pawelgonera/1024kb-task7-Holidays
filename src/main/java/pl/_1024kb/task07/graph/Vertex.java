@@ -1,6 +1,6 @@
 package pl._1024kb.task07.graph;
 
-public class Vertex implements Comparable<Vertex>
+public class Vertex
 {
     private int distance;
     private int number;
@@ -26,12 +26,4 @@ public class Vertex implements Comparable<Vertex>
     public void setNumber(int number) {
         this.number = number;
     }
-
-    @Override
-    public int compareTo(Vertex o)
-    {
-
-        return this.distance = o.distance;
-    }
-
 }
