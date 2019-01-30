@@ -1,8 +1,7 @@
-import org.junit.Assert;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Assertions.*;
 
 import pl._1024kb.task07.algo.DijkstraAlgorithm;
 import pl._1024kb.task07.graph.Graph;
