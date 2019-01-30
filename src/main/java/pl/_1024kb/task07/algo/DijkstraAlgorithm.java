@@ -48,12 +48,6 @@ public class DijkstraAlgorithm implements ShortestPathAlgorithm
         return shortestPath;
     }
 
-    private void isPathNoExist(int result)
-    {
-        if(result == Integer.MAX_VALUE)
-            throw new PathNoExistException("Nie ma połączenia");
-    }
-
     private void setVerticesAsInfiniteDistances(List<Vertex> verticesSet)
     {
         for(int i = 0; i <= graphMatrix.length; i++)
@@ -64,17 +58,17 @@ public class DijkstraAlgorithm implements ShortestPathAlgorithm
 
     private void updateVertices (int pickedVertex, int previousVertexDistance)
     {
-        for (int i = 0; i < graphMatrix.length; i++)
+        for (int nextVertex = 0; nextVertex < graphMatrix.length; nextVertex++)
         {
-            if (graphMatrix[pickedVertex][i] != NO_VERTEX_CONNECTION && !shortestPathVertices.contains(i))
+            if (graphMatrix[pickedVertex][nextVertex] != NO_VERTEX_CONNECTION && !shortestPathVertices.contains(nextVertex))
             {
                 for (Vertex vertex : verticesSet)
                 {
-                    int toUpdateVertexDistance = graphMatrix[pickedVertex][i] + previousVertexDistance;
+                    int toUpdateVertexDistance = graphMatrix[pickedVertex][nextVertex] + previousVertexDistance;
                     int actualVertexDistance = vertex.getDistance();
                     boolean isUpdatedDistanceGreaterThanActualDistance = toUpdateVertexDistance > actualVertexDistance;
-                    if (vertex.getNumber() == i && !isUpdatedDistanceGreaterThanActualDistance)
-                        vertex.setDistance(graphMatrix[pickedVertex][i] + previousVertexDistance);
+                    if (vertex.getNumber() == nextVertex && !isUpdatedDistanceGreaterThanActualDistance)
+                        vertex.setDistance(graphMatrix[pickedVertex][nextVertex] + previousVertexDistance);
                 }
             }
         }
@@ -99,4 +93,11 @@ public class DijkstraAlgorithm implements ShortestPathAlgorithm
 
         return vertexNumber;
     }
+
+    private void isPathNoExist(int result)
+    {
+        if(result == Integer.MAX_VALUE)
+            throw new PathNoExistException("Nie ma połączenia");
+    }
+
 }
