@@ -11,7 +11,7 @@ public class Main
         ShortestPathManager dijkstraShortestPath = new ShortestPathManager(new DijkstraAlgorithm());
         HolidayManager holidayManager = new HolidayManager(dijkstraShortestPath);
 
-        int shortestPath = holidayManager.getShortestPath("matrix.txt", 7, 7);
+        int shortestPath = holidayManager.getShortestPath("src/main/resources/matrix.txt", 4, 7);
 
         System.out.println(shortestPath);
     }

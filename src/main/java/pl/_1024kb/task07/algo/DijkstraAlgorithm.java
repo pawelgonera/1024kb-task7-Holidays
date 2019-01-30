@@ -22,10 +22,10 @@ public class DijkstraAlgorithm implements ShortestPathAlgorithm
         if(source == destination)
             return 0;
         else
-            return dijkstraAlgorithm(source, destination);
+            return calculateShortestPath(source, destination);
     }
 
-    private int dijkstraAlgorithm(int start, int stop)
+    private int calculateShortestPath(int start, int stop)
     {
         setVerticesAsInfiniteDistances(verticesSet);
 
@@ -37,16 +37,21 @@ public class DijkstraAlgorithm implements ShortestPathAlgorithm
 
             updateVertices(start, previousVertexDistance);
 
-            start = findShortestPathVertex(shortestPathVertices, verticesSet);
+            start = findShortestPath(shortestPathVertices, verticesSet);
 
             previousVertexDistance = verticesSet.get(start).getDistance();
         }
 
         int shortestPath = verticesSet.get(stop).getDistance();
-        if(shortestPath == Integer.MAX_VALUE)
-            throw new PathNoExistException("Nie ma połączenia");
+        isPathNoExist(shortestPath);
 
         return shortestPath;
+    }
+
+    private void isPathNoExist(int result)
+    {
+        if(result == Integer.MAX_VALUE)
+            throw new PathNoExistException("Nie ma połączenia");
     }
 
     private void setVerticesAsInfiniteDistances(List<Vertex> verticesSet)
@@ -59,7 +64,6 @@ public class DijkstraAlgorithm implements ShortestPathAlgorithm
 
     private void updateVertices (int pickedVertex, int previousVertexDistance)
     {
-
         for (int i = 0; i < graphMatrix.length; i++)
         {
             if (graphMatrix[pickedVertex][i] != NO_VERTEX_CONNECTION && !shortestPathVertices.contains(i))
@@ -76,7 +80,7 @@ public class DijkstraAlgorithm implements ShortestPathAlgorithm
         }
     }
 
-    private int findShortestPathVertex(List<Integer> sptSet, List<Vertex> vertSet)
+    private int findShortestPath(List<Integer> sptSet, List<Vertex> vertSet)
     {
         int minDist = Integer.MAX_VALUE;
         int vertexNumber = 0;

@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ee4881-2f0b-41ff-bd01-e40707b75ace" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_api_5_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HolidayManagerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/DijkstraAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/DijkstraAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/MatrixLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/MatrixLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/_1024kb/task07/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/_1024kb/task07/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/_1024kb/task07/algo/DijkstraAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/_1024kb/task07/algo/DijkstraAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pl/_1024kb/task07/manager/converter/MatrixLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/_1024kb/task07/manager/converter/MatrixLoader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/ShortestPathManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ShortestPathManagerTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,12 +27,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/GraphMatrixConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="255">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/matrix.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -71,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/MatrixLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,17 +84,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,25 +107,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="54" column="56" lean-forward="true" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/DijkstraAlgorithm.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HolidayManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="435">
+              <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#945#946#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,20 +154,21 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Vertex.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/ShortestPathAlgorithmImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/ShortestPathManager.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/matrix.txt" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/exception/EmptyArrayException.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/LoadMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/Loader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/GraphMatrixConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/MatrixLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/ShortestPathTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/exception/PathNoExistException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/GraphMatrixConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/matrix.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/MatrixLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/DijkstraAlgorithm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HolidayManagerTest.java" />
       </list>
     </option>
   </component>
@@ -193,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,140 +198,27 @@
               <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
               <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="_1024kb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="_1024kb" type="462c0819:PsiDirectoryNode" />
-              <item name="task07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="_1024kb" type="462c0819:PsiDirectoryNode" />
-              <item name="task07" type="462c0819:PsiDirectoryNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="_1024kb" type="462c0819:PsiDirectoryNode" />
-              <item name="task07" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="_1024kb" type="462c0819:PsiDirectoryNode" />
-              <item name="task07" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="_1024kb" type="462c0819:PsiDirectoryNode" />
-              <item name="task07" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pl" type="462c0819:PsiDirectoryNode" />
-              <item name="_1024kb" type="462c0819:PsiDirectoryNode" />
-              <item name="task07" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548806725339" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548843081192" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3091954" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -355,30 +239,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShortestPathManagerTest">
-    <configuration name="ShortestPathManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HolidayManagerTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl._1024kb.task07.Main" />
       <module name="WyjazdNaWakacje" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShortestPathManagerTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl._1024kb.task07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathManagerTest.testFindTheShortestPath0to1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HolidayManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WyjazdNaWakacje" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShortestPathManagerTest" />
-      <option name="METHOD_NAME" value="testFindTheShortestPath0to1" />
+      <option name="MAIN_CLASS_NAME" value="HolidayManagerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HolidayManagerTest.testHolidayManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="WyjazdNaWakacje" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HolidayManagerTest" />
+      <option name="METHOD_NAME" value="testHolidayManager" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathManagerTest.testFindTheShortestPath0to7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HolidayManagerTest.testLoadMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WyjazdNaWakacje" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShortestPathManagerTest" />
-      <option name="METHOD_NAME" value="testFindTheShortestPath0to7" />
+      <option name="MAIN_CLASS_NAME" value="HolidayManagerTest" />
+      <option name="METHOD_NAME" value="testLoadMatrix" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -394,23 +291,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathManagerTest.testSourceIsDestination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WyjazdNaWakacje" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShortestPathManagerTest" />
-      <option name="METHOD_NAME" value="testSourceIsDestination" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShortestPathManagerTest" />
+        <item itemvalue="JUnit.HolidayManagerTest" />
+        <item itemvalue="JUnit.HolidayManagerTest.testHolidayManager" />
+        <item itemvalue="JUnit.HolidayManagerTest.testLoadMatrix" />
         <item itemvalue="JUnit.ShortestPathManagerTest.testIsPathNoExist" />
-        <item itemvalue="JUnit.ShortestPathManagerTest.testSourceIsDestination" />
-        <item itemvalue="JUnit.ShortestPathManagerTest.testFindTheShortestPath0to1" />
-        <item itemvalue="JUnit.ShortestPathManagerTest.testFindTheShortestPath0to7" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -431,50 +318,51 @@
       <workItem from="1548711761321" duration="6222000" />
       <workItem from="1548752821568" duration="4896000" />
       <workItem from="1548758393874" duration="37000" />
-      <workItem from="1548798448486" duration="7623000" />
+      <workItem from="1548798448486" duration="7750000" />
+      <workItem from="1548836140611" duration="6934000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 00h 55m 56s.xml">
+    <history-entry file="ShortestPathManagerTest - 2019.01.30 at 10h 41m 14s.xml">
+      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 10h 41m 51s.xml">
       <configuration name="ShortestPathManagerTest.testIsPathNoExist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 00h 56m 06s.xml">
+    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 10h 42m 03s.xml">
       <configuration name="ShortestPathManagerTest.testIsPathNoExist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 00h 56m 15s.xml">
+    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 10h 42m 36s.xml">
       <configuration name="ShortestPathManagerTest.testIsPathNoExist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 00h 56m 24s.xml">
+    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 10h 42m 47s.xml">
       <configuration name="ShortestPathManagerTest.testIsPathNoExist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 00h 56m 34s.xml">
+    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 10h 43m 17s.xml">
       <configuration name="ShortestPathManagerTest.testIsPathNoExist" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestPathManagerTest_testFindTheShortestPath0to1 - 2019.01.30 at 01h 01m 07s.xml">
-      <configuration name="ShortestPathManagerTest.testFindTheShortestPath0to1" configurationId="JUnit" />
+    <history-entry file="HolidayManagerTest_testLoadMatrix - 2019.01.30 at 10h 56m 06s.xml">
+      <configuration name="HolidayManagerTest.testLoadMatrix" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 01h 01m 19s.xml">
-      <configuration name="ShortestPathManagerTest.testIsPathNoExist" configurationId="JUnit" />
+    <history-entry file="HolidayManagerTest_testLoadMatrix - 2019.01.30 at 10h 59m 37s.xml">
+      <configuration name="HolidayManagerTest.testLoadMatrix" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 01h 01m 29s.xml">
-      <configuration name="ShortestPathManagerTest.testIsPathNoExist" configurationId="JUnit" />
+    <history-entry file="HolidayManagerTest_testLoadMatrix - 2019.01.30 at 11h 06m 27s.xml">
+      <configuration name="HolidayManagerTest.testLoadMatrix" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 01h 01m 41s.xml">
-      <configuration name="ShortestPathManagerTest.testIsPathNoExist" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShortestPathManagerTest_testSourceIsDestination - 2019.01.30 at 01h 04m 00s.xml">
-      <configuration name="ShortestPathManagerTest.testSourceIsDestination" configurationId="JUnit" />
+    <history-entry file="HolidayManagerTest_testLoadMatrix - 2019.01.30 at 11h 07m 54s.xml">
+      <configuration name="HolidayManagerTest.testLoadMatrix" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31643000" />
+    <option name="totallyTimeSpent" value="38704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -578,17 +466,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/exception/EmptyArrayException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/exception/EmptyArrayException.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Vertex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -596,6 +474,72 @@
           <folding>
             <element signature="e#363#364#0" expanded="true" />
             <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ShortestPathTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/exception/PathNoExistException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="4802" column="8" selection-start-line="4802" selection-start-column="8" selection-end-line="4802" selection-end-column="8" />
+          <folding>
+            <element signature="e#186747#186748#0" expanded="true" />
+            <element signature="e#186792#186793#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-422">
+          <caret line="2328" column="20" selection-start-line="2328" selection-start-column="20" selection-end-line="2328" selection-end-column="20" />
+          <folding>
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/DijkstraAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="50" column="42" lean-forward="true" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -610,37 +554,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/MatrixLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/GraphMatrixConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -655,22 +576,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/HolidayManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/MatrixLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="76" selection-start-line="13" selection-start-column="76" selection-end-line="13" selection-end-column="76" />
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -679,48 +598,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/matrix.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ShortestPathTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/exception/PathNoExistException.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-          <folding>
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-          </folding>
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/DijkstraAlgorithm.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="351">
+          <caret line="891" column="23" selection-start-line="891" selection-start-column="23" selection-end-line="891" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#33729#33730#0" expanded="true" />
+            <element signature="e#33782#33783#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="54" column="56" lean-forward="true" selection-start-line="54" selection-start-column="56" selection-end-line="54" selection-end-column="56" />
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/manager/converter/GraphMatrixConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HolidayManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#945#946#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -728,6 +646,65 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>WyjazdNaWakacje</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -735,6 +712,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.junit.jupiter:junit-jupiter-api:5.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3091954" />
               </list>
             </option>
           </splitter-proportions>

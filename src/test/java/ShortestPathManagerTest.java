@@ -1,6 +1,7 @@
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+
 import pl._1024kb.task07.algo.DijkstraAlgorithm;
 import pl._1024kb.task07.api.ShortestPathAlgorithm;
 import pl._1024kb.task07.exception.PathNoExistException;
@@ -9,8 +10,8 @@ import pl._1024kb.task07.manager.ShortestPathManager;
 
 public class ShortestPathManagerTest
 {
-    ShortestPathAlgorithm shortestPathAlgorithm = new DijkstraAlgorithm();
-    ShortestPathManager shortestPathManager = new ShortestPathManager(shortestPathAlgorithm);
+    private ShortestPathAlgorithm shortestPathAlgorithm = new DijkstraAlgorithm();
+    private ShortestPathManager shortestPathManager = new ShortestPathManager(shortestPathAlgorithm);
     private int[][] graphMatrix;
     private Graph graph;
 
@@ -39,12 +40,13 @@ public class ShortestPathManagerTest
                 {-1, 3, -1, -1, 2, 6},
                 {3, -1, -1, -1, -1, 7},
                 {-1, -1, -1, -1, -1, -1},
-                {-1, -1, -1, -1, 1, 9},
-                {2, -1, -1, 1, -1, 5},
-                {6, 7, -1, 9, 5, -1}
+                {-1, -1, -1, -1, 1, -1},
+                {2, -1, -1, -1, -1, 5},
+                {6, 7, -1, -1, 5, -1}
         };
 
-        shortestPathManager.getShortestPath(new Graph(matrix), 5, 2);
+        shortestPathManager.getShortestPath(new Graph(matrix), 5, 3);
+        shortestPathManager.getShortestPath(new Graph(matrix), 2, 3);
     }
 
     @Test
