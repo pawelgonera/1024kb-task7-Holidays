@@ -3,7 +3,6 @@ package pl._1024kb.task07.api;
 import pl._1024kb.task07.exception.PathNoExistException;
 import pl._1024kb.task07.graph.Graph;
 
-// You can choose any algorithm, I suggested to use Dijkstra
 public interface ShortestPathAlgorithm
 {
     /**

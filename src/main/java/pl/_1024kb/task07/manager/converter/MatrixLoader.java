@@ -8,17 +8,17 @@ import java.util.List;
 
 public class MatrixLoader
 {
-    private final static String FILE_PATH = "/resources/";
+    private final static String FILE_PATH = "src/main/resources/";
 
     public static List<String[]> loadMatrix(String fileName)
     {
         List<String[]> rowsList = new LinkedList<>();
         try(BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH + fileName)))
         {
-            String line = null;
+            String line;
             while((line = reader.readLine()) != null)
             {
-                String[] row = line.split(",");
+                String[] row = line.split(", ");
                 rowsList.add(row);
             }
 

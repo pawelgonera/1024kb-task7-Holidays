@@ -1,6 +1,7 @@
 package pl._1024kb.task07.algo;
 
 import pl._1024kb.task07.api.ShortestPathAlgorithm;
+import pl._1024kb.task07.exception.PathNoExistException;
 import pl._1024kb.task07.graph.Graph;
 import pl._1024kb.task07.graph.Vertex;
 
@@ -10,15 +11,18 @@ public class DijkstraAlgorithm implements ShortestPathAlgorithm
 {
     private static final int NO_VERTEX_CONNECTION = -1;
     private int[][] graphMatrix;
-    private List<Vertex> verticesSet = new LinkedList<Vertex>();
-    private List<Integer> shortestPathVertices = new LinkedList<Integer>();
+    private List<Vertex> verticesSet = new LinkedList<>();
+    private List<Integer> shortestPathVertices = new LinkedList<>();
 
     @Override
     public int getShortestPath(Graph graph, int source, int destination)
     {
         graphMatrix = graph.getNeighborhoodMatrix();
 
-        return dijkstraAlgorithm(source, destination);
+        if(source == destination)
+            return 0;
+        else
+            return dijkstraAlgorithm(source, destination);
     }
 
     private int dijkstraAlgorithm(int start, int stop)
@@ -38,7 +42,11 @@ public class DijkstraAlgorithm implements ShortestPathAlgorithm
             previousVertexDistance = verticesSet.get(start).getDistance();
         }
 
-        return verticesSet.get(stop).getDistance();
+        int shortestPath = verticesSet.get(stop).getDistance();
+        if(shortestPath == Integer.MAX_VALUE)
+            throw new PathNoExistException("Nie ma połączenia");
+
+        return shortestPath;
     }
 
     private void setVerticesAsInfiniteDistances(List<Vertex> verticesSet)

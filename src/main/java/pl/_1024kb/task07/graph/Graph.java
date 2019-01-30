@@ -9,7 +9,6 @@ public class Graph
         this.neighborhoodMatrix = neighborhoodMatrix;
     }
 
-
     public int[][] getNeighborhoodMatrix()
     {
         return this.neighborhoodMatrix;
