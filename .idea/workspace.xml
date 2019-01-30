@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ee4881-2f0b-41ff-bd01-e40707b75ace" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/graph/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
+            <state relative-caret-position="68">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -50,11 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
+            <state relative-caret-position="190">
               <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HolidayManagerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -208,7 +220,42 @@
               <item name="pl" type="462c0819:PsiDirectoryNode" />
               <item name="_1024kb" type="462c0819:PsiDirectoryNode" />
               <item name="task07" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="_1024kb" type="462c0819:PsiDirectoryNode" />
+              <item name="task07" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pl" type="462c0819:PsiDirectoryNode" />
+              <item name="_1024kb" type="462c0819:PsiDirectoryNode" />
+              <item name="task07" type="462c0819:PsiDirectoryNode" />
               <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WyjazdNaWakacje" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WyjazdNaWakacje" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +272,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548844599087" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548844785653" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -251,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in WyjazdNaWakacje">
+  <component name="RunManager" selected="JUnit.HolidayManagerTest">
     <configuration name="All in WyjazdNaWakacje" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WyjazdNaWakacje" />
       <option name="PACKAGE_NAME" value="" />
@@ -298,9 +345,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in WyjazdNaWakacje" />
-        <item itemvalue="JUnit.ShortestPathManagerTest" />
         <item itemvalue="JUnit.HolidayManagerTest" />
+        <item itemvalue="JUnit.ShortestPathManagerTest" />
+        <item itemvalue="JUnit.All in WyjazdNaWakacje" />
         <item itemvalue="JUnit.HolidayManagerTest.testHolidayManager" />
         <item itemvalue="JUnit.HolidayManagerTest.testLoadMatrix" />
       </list>
@@ -329,18 +376,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 10h 42m 47s.xml">
-      <configuration name="ShortestPathManagerTest.testIsPathNoExist" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShortestPathManagerTest_testIsPathNoExist - 2019.01.30 at 10h 43m 17s.xml">
-      <configuration name="ShortestPathManagerTest.testIsPathNoExist" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HolidayManagerTest_testLoadMatrix - 2019.01.30 at 10h 56m 06s.xml">
-      <configuration name="HolidayManagerTest.testLoadMatrix" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HolidayManagerTest_testLoadMatrix - 2019.01.30 at 10h 59m 37s.xml">
-      <configuration name="HolidayManagerTest.testLoadMatrix" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HolidayManagerTest_testLoadMatrix - 2019.01.30 at 11h 06m 27s.xml">
       <configuration name="HolidayManagerTest.testLoadMatrix" configurationId="JUnit" />
     </history-entry>
@@ -359,9 +394,21 @@
     <history-entry file="HolidayManagerTest - 2019.01.30 at 11h 25m 19s.xml">
       <configuration name="HolidayManagerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShortestPathManagerTest - 2019.01.30 at 11h 33m 57s.xml">
+      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_WyjazdNaWakacje - 2019.01.30 at 11h 34m 07s.xml">
+      <configuration name="All in WyjazdNaWakacje" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShortestPathManagerTest - 2019.01.30 at 11h 37m 48s.xml">
+      <configuration name="ShortestPathManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HolidayManagerTest - 2019.01.30 at 11h 37m 55s.xml">
+      <configuration name="HolidayManagerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39836000" />
+    <option name="totallyTimeSpent" value="40077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -376,7 +423,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -384,7 +431,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -602,28 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HolidayManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/algo/DijkstraAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -645,10 +670,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/_1024kb/task07/api/ShortestPathAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ShortestPathManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
+        <state relative-caret-position="190">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HolidayManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
